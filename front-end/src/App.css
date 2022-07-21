@@ -25,3 +25,62 @@ a{
   font-weight: bold !important;
   cursor: pointer;
 }
+.toolbar{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between;
+}
+.select{
+  width: 100px;
+  height: 40px;
+}
+
+/*------------------------Banner.jsx------------------------*/
+
+.banner{
+  background-image: url(https://raw.githubusercontent.com/piyush-eon/react-crypto-tracker/master/public/banner2.jpg);
+}
+.bannerContainer{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  paddint-top: 25px;
+  justify-content: space-around;
+
+}
+.bannerTitle{
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.bannerTypography{
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bannerTypography2{
+  color: darkgrey;
+  text-transform: capitalize;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*------------------------Carousel.jsx------------------------*/
+
+.carousel{
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.carouselLink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+}
+.carouselimg{
+  margin-bottom: 10px;
+}

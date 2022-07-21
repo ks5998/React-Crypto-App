@@ -21,17 +21,13 @@ const Header = () => {
         <ThemeProvider theme={darkTheme}>
         <AppBar color='transparent' position='static'>
             <Container>
-                <Toolbar>
+                <Toolbar className='toolbar'>
                     <Link to={'/'} >
                     <Typography className='title' variant>Crypto Hunter</Typography>
                     </Link>
                     <Select 
                         variant='outlined'
-                        style={{
-                            width: 100,
-                            height: 40,
-                            marginRight: 15,
-                        }}
+                        className='select'
                         value={currency}
                         onChange={(e) => setCurrency(e.target.value)}> 
                         <MenuItem value={'USD'}>USD</MenuItem>
