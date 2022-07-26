@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "axios": "^0.27.2",
-    "react-alice-carousel": "^2.6.1"
+    "node-polyfill-webpack-plugin": "^2.0.0",
+    "react-alice-carousel": "^2.6.1",
+    "react-html-parser": "^2.0.2"
   }
 }
